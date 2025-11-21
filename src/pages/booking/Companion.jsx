@@ -41,7 +41,7 @@ const Companion = ( { change, index } ) => {
             <h2>{index+1} .</h2>
             <input className="sm:w-3/12 p-2 border-2 border-gray-400 rounded-xl" type="text" name="name" value={data.name} onChange={handleChange} placeholder='Name' required/>
             <input className="sm:w-3/12 p-2 border-2 border-gray-400 rounded-xl" type="number" name="age" value={data.age} onChange={handleChange} placeholder='Age' required/>
-            <select className="sm:min-w-3/12 min-w-[108%] p-2 sm:py-3 rounded-[8px] border-2 border-gray-400 bg-white" name="gender" value={data.gender} onChange={handleChange} placeholder='Gender' required >
+            <select className="sm:min-w-3/12 min-w-[100%] p-2 sm:py-3 rounded-[8px] border-2 border-gray-400 bg-white" name="gender" value={data.gender} onChange={handleChange} placeholder='Gender' required >
                 <option value="">Gender</option>
                 <option value="M">Male</option>
                 <option value="F">Female</option>

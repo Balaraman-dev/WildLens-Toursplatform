@@ -28,7 +28,7 @@ const UserCard = ({ className, ...props }) => {
     if( logIn ) {
 
         return (
-            <div className={`user_img_tags w-[25%] flex items-center mt-8 ${className ? className : ''}`} {...props}>
+            <div className={`user_img_tags w-[25%] flex items-center mt-13 mr-28 sm:mr-0 sm:mt-8 ${className ? className : ''}`} {...props}>
                 <img src={Profile} alt=""  className='img sm:w-1/4 w-3/4' />
                 <div className="user_det">
                     <h3 className='sm:text-3xl font-bold'>{user.fullName}</h3>
